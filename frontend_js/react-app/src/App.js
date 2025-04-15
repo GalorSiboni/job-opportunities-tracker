@@ -1,11 +1,12 @@
 import "./App.css";
-import { Header, Grid, Footer } from "./components/Grid";
+import { Grid } from "./components/Grid";
+import { Header } from "./components/Header";
+
 function App() {
 	return (
 		<div className="App">
 			<Header />
 			<Grid />
-			<Footer />
 		</div>
 	);
 }
