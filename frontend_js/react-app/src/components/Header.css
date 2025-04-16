@@ -1,8 +1,40 @@
-.Header-Container {
-	background-color: aquamarine;
+.app-header {
+	background-color: #ffffff;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+	padding: 16px 24px;
+	position: sticky;
+	top: 0;
+	z-index: 10;
 }
 
-.Img {
-	position: fixed;
-	left: 0;
+.header-content {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.logo-image {
+	height: 40px;
+	width: auto;
+	object-fit: contain;
+}
+
+.app-header h1 {
+	margin: 0;
+	font-size: 24px;
+	color: #333;
+	font-weight: 700;
+}
+
+.header-actions {
+	display: flex;
+	gap: 12px;
 }

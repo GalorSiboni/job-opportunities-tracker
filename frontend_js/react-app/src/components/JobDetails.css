@@ -1,0 +1,193 @@
+.job-details {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.job-details-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.job-details-header h2 {
+	margin: 0;
+	font-size: 24px;
+	color: #333;
+}
+
+.close-button {
+	background: none;
+	border: none;
+	font-size: 26px;
+	color: #777;
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	transition: all 0.2s;
+}
+
+.close-button:hover {
+	background-color: #f0f0f0;
+	color: #333;
+}
+
+.job-info-section {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.job-status {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.status-badge {
+	padding: 6px 12px;
+	border-radius: 16px;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.status-pending {
+	background-color: #fff8e1;
+	color: #ffa000;
+}
+
+.status-in-progress {
+	background-color: #e3f2fd;
+	color: #1976d2;
+}
+
+.status-completed {
+	background-color: #e8f5e9;
+	color: #388e3c;
+}
+
+.status-cancelled {
+	background-color: #ffebee;
+	color: #d32f2f;
+}
+
+.status-scheduled {
+	background-color: #e8f5e9;
+	color: #388e3c;
+}
+
+.status-rescheduled {
+	background-color: #fff8e1;
+	color: #ffa000;
+}
+
+.added-date {
+	font-size: 13px;
+	color: #666;
+}
+
+.job-description-full {
+	margin-top: 8px;
+}
+
+.job-description-full h3 {
+	font-size: 16px;
+	margin-bottom: 8px;
+	color: #555;
+}
+
+.job-description-full p {
+	margin: 0;
+	line-height: 1.5;
+	color: #444;
+}
+
+.events-section {
+	margin-top: 8px;
+}
+
+.events-section h3 {
+	font-size: 18px;
+	margin-bottom: 16px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #eee;
+	color: #333;
+}
+
+.events-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.event-item {
+	background-color: #fff;
+	border-radius: 8px;
+	padding: 16px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+	border-left: 4px solid #ddd;
+}
+
+.event-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.event-header h4 {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+}
+
+.event-status {
+	font-size: 12px;
+	padding: 3px 8px;
+	border-radius: 12px;
+	text-transform: capitalize;
+}
+
+.event-meta {
+	display: flex;
+	gap: 16px;
+	margin-bottom: 8px;
+	font-size: 13px;
+	color: #666;
+}
+
+.event-type {
+	text-transform: capitalize;
+}
+
+.event-notes {
+	margin: 10px 0 0 0;
+	font-size: 14px;
+	color: #555;
+	line-height: 1.4;
+}
+
+.loading-events,
+.events-error,
+.no-events {
+	font-size: 14px;
+	color: #666;
+	font-style: italic;
+	text-align: center;
+	padding: 16px;
+	background-color: #f9f9f9;
+	border-radius: 4px;
+}
+
+.events-error {
+	color: #d32f2f;
+	background-color: #ffebee;
+}
